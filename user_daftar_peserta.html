@@ -247,10 +247,6 @@
             show_alert({class:'alert-warning',message:'Penguji 1 is required!',focus:'select[name="penguji2"]'})
             return;
         }
-        if($.trim($('textarea[name="judul_ta"]').val()) == '') {
-            show_alert({class:'alert-warning',message:'Judul TA is required!',focus:'textarea[name="judul_ta"]'})
-            return;
-        }
 
         window.location.href = 'user_jadwal.html'
 
