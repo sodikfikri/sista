@@ -461,8 +461,8 @@
                 show_alert({class:'alert-warning',message:'Penguji 1 is required!',focus:'select[name="penguji2"]'})
                 return;
             }
-            if($.trim($('input[name="judul_ta"]').val()) == '') {
-                show_alert({class:'alert-warning',message:'Judul TA is required!',focus:'input[name="judul_ta"]'})
+            if($.trim($('textarea[name="judul_ta"]').val()) == '') {
+                show_alert({class:'alert-warning',message:'Judul TA is required!',focus:'textarea[name="judul_ta"]'})
                 return;
             }
 
@@ -511,8 +511,8 @@
                 show_alert_update({class:'alert-warning',message:'Penguji 2 is required!',focus:'select[name="u_penguji2"]'})
                 return;
             }
-            if($.trim($('input[name="u_judul_ta"]').val()) == '') {
-                show_alert_update({class:'alert-warning',message:'Judul TA is required!',focus:'input[name="u_judul_ta"]'})
+            if($.trim($('textarea[name="u_judul_ta"]').val()) == '') {
+                show_alert_update({class:'alert-warning',message:'Judul TA is required!',focus:'textarea[name="u_judul_ta"]'})
                 return;
             }
 
