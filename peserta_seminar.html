@@ -274,6 +274,12 @@
     <script>
         $('#example').DataTable()
 
+        $('.delete').on('click', function(){
+            var r = confirm("Are you sure ?");
+
+            if (r !== true) return;
+        })
+
         $.alertMsgU = $('#alert-validation-update')
 
         let show_alert_update = (data) => {
